@@ -14,8 +14,6 @@ def main():
     clock = pygame.time.Clock()
     dt = 0
 
-    pygame.time.clock.tick()
-    dt = 0
 
     while True:
         for event in pygame.event.get():
